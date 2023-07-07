@@ -1,0 +1,1197 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-07T10:28:46.207Z",
+        "line": 19,
+        "name": "User should be able to registration new account successfully",
+        "description": "",
+        "id": "nopcommerce-registration-feature-test;user-should-be-able-to-registration-new-account-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9897000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to the NopCommerce Home page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_go_to_the_nop_commerce_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1615000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the Registration page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_navigate_to_the_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the \"Male\" as gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 16
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_select_the_as_gender(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User set first name and last name",
+            "match": {
+              "location": "test.RegistrationStepDef.user_set_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User set \"20/05/1995\" as date of birth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20/05/1995\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_date_of_birth(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User set \"\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set \"Brainstation-23\" as company details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brainstation-23\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_company_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User set Newsletter option as \"checked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"checked\"",
+                  "offset": 30
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_newsletter_option_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User set \"pass@1234\" as password and confirm password again",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass@1234\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_password_and_confirm_password_again(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1711000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the Register button",
+            "match": {
+              "location": "test.RegistrationStepDef.user_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that the new account registration message \"Your registration completed\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your registration completed\"",
+                  "offset": 49
+                }
+              ],
+              "location": "test.RegistrationStepDef.verify_that_the_new_account_registration_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-07T10:29:02.743Z",
+        "line": 20,
+        "name": "User should be able to registration new account successfully",
+        "description": "",
+        "id": "nopcommerce-registration-feature-test;user-should-be-able-to-registration-new-account-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 541000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to the NopCommerce Home page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_go_to_the_nop_commerce_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 734000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the Registration page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_navigate_to_the_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the \"Female\" as gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Female\"",
+                  "offset": 16
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_select_the_as_gender(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User set first name and last name",
+            "match": {
+              "location": "test.RegistrationStepDef.user_set_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User set \"9/05/1999\" as date of birth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9/05/1999\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_date_of_birth(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User set \"\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set \"Brainstation-23\" as company details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brainstation-23\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_company_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User set Newsletter option as \"unchecked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unchecked\"",
+                  "offset": 30
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_newsletter_option_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 352000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User set \"pass@1234\" as password and confirm password again",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass@1234\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_password_and_confirm_password_again(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the Register button",
+            "match": {
+              "location": "test.RegistrationStepDef.user_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that the new account registration message \"Your registration completed\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your registration completed\"",
+                  "offset": 49
+                }
+              ],
+              "location": "test.RegistrationStepDef.verify_that_the_new_account_registration_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-07T10:29:07.807Z",
+        "line": 21,
+        "name": "User should be able to registration new account successfully",
+        "description": "",
+        "id": "nopcommerce-registration-feature-test;user-should-be-able-to-registration-new-account-successfully;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 530000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to the NopCommerce Home page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_go_to_the_nop_commerce_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 735000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the Registration page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_navigate_to_the_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the \"Female\" as gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Female\"",
+                  "offset": 16
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_select_the_as_gender(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User set first name and last name",
+            "match": {
+              "location": "test.RegistrationStepDef.user_set_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User set \"3/05/2000\" as date of birth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3/05/2000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_date_of_birth(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User set \"\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set \"Brainstation-23\" as company details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brainstation-23\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_company_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User set Newsletter option as \"unchecked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unchecked\"",
+                  "offset": 30
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_newsletter_option_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User set \"pass@1234\" as password and confirm password again",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass@1234\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_password_and_confirm_password_again(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 913000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the Register button",
+            "match": {
+              "location": "test.RegistrationStepDef.user_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1188000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that the new account registration message \"Your registration completed\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your registration completed\"",
+                  "offset": 49
+                }
+              ],
+              "location": "test.RegistrationStepDef.verify_that_the_new_account_registration_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-07T10:29:12.832Z",
+        "line": 22,
+        "name": "User should be able to registration new account successfully",
+        "description": "",
+        "id": "nopcommerce-registration-feature-test;user-should-be-able-to-registration-new-account-successfully;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 608000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to the NopCommerce Home page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_go_to_the_nop_commerce_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 779000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the Registration page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_navigate_to_the_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the \"Male\" as gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 16
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_select_the_as_gender(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User set first name and last name",
+            "match": {
+              "location": "test.RegistrationStepDef.user_set_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User set \"2/05/2001\" as date of birth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2/05/2001\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_date_of_birth(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User set \"\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set \"Brainstation-23\" as company details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brainstation-23\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_company_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User set Newsletter option as \"checked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"checked\"",
+                  "offset": 30
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_newsletter_option_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User set \"pass@1234\" as password and confirm password again",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass@1234\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_password_and_confirm_password_again(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 884000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the Register button",
+            "match": {
+              "location": "test.RegistrationStepDef.user_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1089000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that the new account registration message \"Your registration completed\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your registration completed\"",
+                  "offset": 49
+                }
+              ],
+              "location": "test.RegistrationStepDef.verify_that_the_new_account_registration_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-07T10:29:17.821Z",
+        "line": 23,
+        "name": "User should be able to registration new account successfully",
+        "description": "",
+        "id": "nopcommerce-registration-feature-test;user-should-be-able-to-registration-new-account-successfully;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 517000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User go to the NopCommerce Home page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_go_to_the_nop_commerce_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 686000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the Registration page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_navigate_to_the_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the \"Female\" as gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Female\"",
+                  "offset": 16
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_select_the_as_gender(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User set first name and last name",
+            "match": {
+              "location": "test.RegistrationStepDef.user_set_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User set \"10/05/1990\" as date of birth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10/05/1990\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_date_of_birth(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User set \"\" as email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set \"Brainstation-23\" as company details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brainstation-23\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_company_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User set Newsletter option as \"unchecked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unchecked\"",
+                  "offset": 30
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_newsletter_option_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User set \"pass@1234\" as password and confirm password again",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass@1234\"",
+                  "offset": 9
+                }
+              ],
+              "location": "test.RegistrationStepDef.user_set_as_password_and_confirm_password_again(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 880000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the Register button",
+            "match": {
+              "location": "test.RegistrationStepDef.user_click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1107000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that the new account registration message \"Your registration completed\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your registration completed\"",
+                  "offset": 49
+                }
+              ],
+              "location": "test.RegistrationStepDef.verify_that_the_new_account_registration_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce registration feature Test",
+    "description": "",
+    "id": "nopcommerce-registration-feature-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/1_Registration.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-07T10:29:22.477Z",
+        "line": 7,
+        "name": "User should be able to successfully place order as a guest user",
+        "description": "",
+        "id": "nopcommerce-place-order-feature-test;user-should-be-able-to-successfully-place-order-as-a-guest-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 524000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User go to the NopCommerce Home page",
+            "match": {
+              "location": "test.RegistrationStepDef.user_go_to_the_nop_commerce_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4762000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click \"Cell phones\" option from \"Electronics\" category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cell phones\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Electronics\"",
+                  "offset": 37
+                }
+              ],
+              "location": "test.OrderStepDef.user_click_option_from_category(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3517000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the \"Nokia Lumia 1020\" for product details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nokia Lumia 1020\"",
+                  "offset": 18
+                }
+              ],
+              "location": "test.OrderStepDef.user_click_on_the_for_product_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User set the quantity number 2 in the quantity field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 29
+                }
+              ],
+              "location": "test.OrderStepDef.user_set_the_quantity_number_in_the_quantity_field(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on the \"ADD TO CART\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD TO CART\"",
+                  "offset": 18
+                }
+              ],
+              "location": "test.OrderStepDef.user_click_on_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4042000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User go to the shipping cart page",
+            "match": {
+              "location": "test.OrderStepDef.user_go_to_the_shipping_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2572000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User accept terms conditions and click checkout button",
+            "match": {
+              "location": "test.OrderStepDef.user_accept_terms_conditions_and_click_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2715000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click checkout as guest button",
+            "match": {
+              "location": "test.OrderStepDef.user_click_checkout_as_guest_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1824000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User input all the billing details and click continue",
+            "match": {
+              "location": "test.OrderStepDef.user_input_all_the_billing_details_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select shipping method \"Next Day Air\" and click continue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Next Day Air\"",
+                  "offset": 28
+                }
+              ],
+              "location": "test.OrderStepDef.user_select_shipping_method_and_click_continue(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select payment method \"Credit Card\" and click continue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 27
+                }
+              ],
+              "location": "test.OrderStepDef.user_select_payment_method_and_click_continue(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1130000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select \"Visa\" card and input card information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visa\"",
+                  "offset": 12
+                }
+              ],
+              "location": "test.OrderStepDef.user_select_card_and_input_card_information(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click confirm button to place the order",
+            "match": {
+              "location": "test.OrderStepDef.user_click_confirm_button_to_place_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3916000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify that the order place message \"Your order has been successfully processed!\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your order has been successfully processed!\"",
+                  "offset": 36
+                }
+              ],
+              "location": "test.OrderStepDef.verify_that_the_order_place_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@placeOrder"
+          },
+          {
+            "name": "@test-2"
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce place order feature Test",
+    "description": "",
+    "id": "nopcommerce-place-order-feature-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/2_Order.feature",
+    "tags": [
+      {
+        "name": "@placeOrder",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="63.967">
+<testcase classname="Nopcommerce registration feature Test" name="User should be able to registration new account successfully" time="16.499">
+<system-out><![CDATA[Given User go to the NopCommerce Home page..................................passed
+And User navigate to the Registration page..................................passed
+When User select the "Male" as gender.......................................passed
+And User set first name and last name.......................................passed
+And User set "20/05/1995" as date of birth..................................passed
+And User set "" as email....................................................passed
+And User set "Brainstation-23" as company details...........................passed
+And User set Newsletter option as "checked".................................passed
+And User set "pass@1234" as password and confirm password again.............passed
+And User click on the Register button.......................................passed
+Then Verify that the new account registration message "Your registration completed" is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Nopcommerce registration feature Test" name="User should be able to registration new account successfully 2" time="5.051">
+<system-out><![CDATA[Given User go to the NopCommerce Home page..................................passed
+And User navigate to the Registration page..................................passed
+When User select the "Female" as gender.....................................passed
+And User set first name and last name.......................................passed
+And User set "9/05/1999" as date of birth...................................passed
+And User set "" as email....................................................passed
+And User set "Brainstation-23" as company details...........................passed
+And User set Newsletter option as "unchecked"...............................passed
+And User set "pass@1234" as password and confirm password again.............passed
+And User click on the Register button.......................................passed
+Then Verify that the new account registration message "Your registration completed" is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Nopcommerce registration feature Test" name="User should be able to registration new account successfully 3" time="5.009">
+<system-out><![CDATA[Given User go to the NopCommerce Home page..................................passed
+And User navigate to the Registration page..................................passed
+When User select the "Female" as gender.....................................passed
+And User set first name and last name.......................................passed
+And User set "3/05/2000" as date of birth...................................passed
+And User set "" as email....................................................passed
+And User set "Brainstation-23" as company details...........................passed
+And User set Newsletter option as "unchecked"...............................passed
+And User set "pass@1234" as password and confirm password again.............passed
+And User click on the Register button.......................................passed
+Then Verify that the new account registration message "Your registration completed" is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Nopcommerce registration feature Test" name="User should be able to registration new account successfully 4" time="4.977">
+<system-out><![CDATA[Given User go to the NopCommerce Home page..................................passed
+And User navigate to the Registration page..................................passed
+When User select the "Male" as gender.......................................passed
+And User set first name and last name.......................................passed
+And User set "2/05/2001" as date of birth...................................passed
+And User set "" as email....................................................passed
+And User set "Brainstation-23" as company details...........................passed
+And User set Newsletter option as "checked".................................passed
+And User set "pass@1234" as password and confirm password again.............passed
+And User click on the Register button.......................................passed
+Then Verify that the new account registration message "Your registration completed" is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Nopcommerce registration feature Test" name="User should be able to registration new account successfully 5" time="4.644">
+<system-out><![CDATA[Given User go to the NopCommerce Home page..................................passed
+And User navigate to the Registration page..................................passed
+When User select the "Female" as gender.....................................passed
+And User set first name and last name.......................................passed
+And User set "10/05/1990" as date of birth..................................passed
+And User set "" as email....................................................passed
+And User set "Brainstation-23" as company details...........................passed
+And User set Newsletter option as "unchecked"...............................passed
+And User set "pass@1234" as password and confirm password again.............passed
+And User click on the Register button.......................................passed
+Then Verify that the new account registration message "Your registration completed" is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Nopcommerce place order feature Test" name="User should be able to successfully place order as a guest user" time="27.151">
+<system-out><![CDATA[Given User go to the NopCommerce Home page..................................passed
+When User click "Cell phones" option from "Electronics" category............passed
+And User click on the "Nokia Lumia 1020" for product details................passed
+And User set the quantity number 2 in the quantity field....................passed
+And User click on the "ADD TO CART" button..................................passed
+And User go to the shipping cart page.......................................passed
+And User accept terms conditions and click checkout button..................passed
+And User click checkout as guest button.....................................passed
+And User input all the billing details and click continue...................passed
+And User select shipping method "Next Day Air" and click continue...........passed
+And User select payment method "Credit Card" and click continue.............passed
+And User select "Visa" card and input card information......................passed
+And User click confirm button to place the order............................passed
+Then Verify that the order place message "Your order has been successfully processed!" is displayed.passed
+]]></system-out>
+</testcase>
+</testsuite>
